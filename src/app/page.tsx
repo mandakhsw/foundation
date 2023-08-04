@@ -1,9 +1,9 @@
-import { css } from "@css";
+import { css } from "@lib/core";
 import Image from "next/image";
 
 export default function Home() {
   return (
-    <main className={css({ fontSize: "xl", fontWeight: "normal" })}>
+    <main className={css({ fontSize: "xl" })}>
       <div>
         <p>
           Get started by editing&nbsp;
